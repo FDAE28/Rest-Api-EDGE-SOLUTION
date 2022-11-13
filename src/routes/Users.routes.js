@@ -3,7 +3,9 @@ const {User} = require('../db')
 
 const router = express.Router()
 
-
+router.get('/', (req, res) => {
+  res.send('/api-user')
+})
 
 
 //Create user POST
