@@ -4,7 +4,7 @@ const {User} = require('../db')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  res.send('/api-user')
+  res.send('Ruta a swgger : https://rest-api-edge-solution-production.up.railway.app/api-user')
 })
 
 
